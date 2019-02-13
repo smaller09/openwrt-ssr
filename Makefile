@@ -2,7 +2,7 @@
 
 include $(TOPDIR)/rules.mk
 
-PKG_NAME:=shadowsocksr-libev
+PKG_NAME:=openwrt-ssr
 PKG_VERSION:=2018-11-21
 PKG_RELEASE:=ed6c9eb12530a7ecbdf3f5801fe59b177fe74779
 
@@ -35,7 +35,7 @@ define Package/shadowsocksr-libev/Default
 	SECTION:=net
 	CATEGORY:=Network
 	TITLE:=Lightweight Secured Socks5 Proxy
-	URL:=https://github.com/shadowsocksrr/shadowsocksr-libev
+	URL:=https://github.com/smaller09/shadowsocksr-libev
 	DEPENDS:=+zlib +libpthread \
 		+!SHADOWSOCKSR_WITH_PCRE:libpcre \
 		+!SHADOWSOCKSR_WITH_OPENSSL:libopenssl \
