@@ -2,7 +2,7 @@
 
 include $(TOPDIR)/rules.mk
 
-PKG_NAME:=openwrt-ssr
+PKG_NAME:=shadowsocksr-libev
 PKG_VERSION:=2018-11-21
 PKG_RELEASE:=ed6c9eb12530a7ecbdf3f5801fe59b177fe74779
 
