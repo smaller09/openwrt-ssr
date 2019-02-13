@@ -114,9 +114,3 @@ ShadowsocksR-libev for OpenWrt
           [-v]                       Verbose mode.
           [-h, --help]               Print this message.
    
-   ```
-
-错误排除
----
-   错误字样: ```error: MBEDTLS_CAMELLIA_C required```  
-   解决方案: ```rm -rf package/libs/mbedtls```
